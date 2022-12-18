@@ -1,0 +1,22 @@
+.work-text h2 {
+  font-size: 1.2rem;
+  font-weight: var(--font-bold);
+}
+.card {
+  border: none !important;
+}
+.card-body {
+  font-weight: var(--font-regular);
+}
+.card-body button {
+  border: none !important;
+  padding: 0.25rem 0.5rem !important;
+}
+.card-body button a {
+  text-decoration: none !important;
+  font-weight: var(--font-semiBold);
+}
+.card-body ul li img {
+  width: 3.5rem;
+  list-style: none !important;
+}

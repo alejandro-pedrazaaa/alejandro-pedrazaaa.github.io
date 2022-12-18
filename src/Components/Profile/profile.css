@@ -1,0 +1,8 @@
+.profile h1 {
+  font-size: 2.5rem;
+  font-weight: var(--font-bold);
+}
+.profile p {
+  font-size: 1.2rem;
+  font-weight: var(--font-regular);
+}

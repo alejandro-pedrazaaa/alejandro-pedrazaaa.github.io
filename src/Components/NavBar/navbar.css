@@ -1,0 +1,13 @@
+.navbar a,
+.navbar-brand {
+  font-size: 1.2rem;
+  font-weight: var(--font-semiBold);
+  text-decoration: none;
+}
+.navbar img {
+  width: 1.5rem;
+}
+.navbar button {
+  border: none !important;
+  border-radius: 0.375rem;
+}
