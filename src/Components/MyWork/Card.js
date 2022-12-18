@@ -8,7 +8,7 @@ export const Card = (props) => {
         <div>
           <p className="card-text">{props.text}</p>
         </div>
-        <div className="d-flex justify-content-around mt-3">
+        <div className="d-flex justify-content-around mt-2">
           <button type="button" className="btn btn-primary">
             <a href={props.liveDemo} target="_blank" rel="noreferrer">
               Live Demo
