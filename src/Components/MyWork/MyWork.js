@@ -15,7 +15,7 @@ export const Work = () => {
         <Card
           img={MoviesAppLogo}
           alt="Logo of Movies App"
-          text="Website that displays and searches for movies"
+          text="Website that shows, searches, and filters movies"
           liveDemo="https://alejandro-pedrazaaa.github.io/MoviesApp/"
           sourceCode="https://github.com/alejandro-pedrazaaa/MoviesApp"
         />

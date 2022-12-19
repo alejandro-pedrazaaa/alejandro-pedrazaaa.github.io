@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./Styles/Themes.Styles";
 import { GlobalStyles } from "./Styles/Global.Styles";
-import { useDarkMode } from "./Hooks/DarkMode";
+import { useDarkMode } from "./Hooks/useDarkMode";
 import { Fireflies } from "./Components/Fireflies/Fireflies";
 import { NavBar } from "./Components/NavBar/NavBar";
 import { Profile } from "./Components/Profile/Profile";
