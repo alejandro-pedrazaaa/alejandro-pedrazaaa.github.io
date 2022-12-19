@@ -12,11 +12,10 @@
   border: none !important;
   padding: 0.25rem 0.5rem !important;
 }
+.card-body p {
+  font-weight: var(--font-semiBold);
+}
 .card-body button a {
   text-decoration: none !important;
   font-weight: var(--font-semiBold);
-}
-.card-body ul li img {
-  width: 3.5rem;
-  list-style: none !important;
 }

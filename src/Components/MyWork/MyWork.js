@@ -7,38 +7,40 @@ import APLogo from "../../Assets/Images/Projects/AP.png";
 
 export const Work = () => {
   return (
-    <section className="pt-4">
-      <div className="work-text text-center pb-2">
+    <section>
+      <div className="work-text text-center pb-1">
         <h2>Here is some of my work:</h2>
       </div>
-      <Card
-        img={MoviesAppLogo}
-        alt="Logo of Movies App"
-        text="Website that displays and searches for movies"
-        liveDemo="https://movies-app-2021.netlify.app/"
-        sourceCode=""
-      />
-      <Card
-        img={MAndMLogo}
-        alt="Logo of M&M's"
-        text="Website for a metal fabrication business"
-        liveDemo="https://m-and-m-metal-fabrication.netlify.app/"
-        sourceCode=""
-      />
-      <Card
-        img={FetchRewardsLogo}
-        alt="Logo of Fetch Rewards"
-        text="User creation form inspired by Fetch Rewards"
-        liveDemo="https://fetch-rewards.netlify.app/"
-        sourceCode=""
-      />
-      <Card
-        img={APLogo}
-        alt="Logo of my portfolio"
-        text="This website!"
-        liveDemo="https://alejandro-perez.netlify.app/"
-        sourceCode=""
-      />
+      <div>
+        <Card
+          img={MoviesAppLogo}
+          alt="Logo of Movies App"
+          text="Website that displays and searches for movies"
+          liveDemo="https://alejandro-pedrazaaa.github.io/MoviesApp/"
+          sourceCode="https://github.com/alejandro-pedrazaaa/MoviesApp"
+        />
+        <Card
+          img={MAndMLogo}
+          alt="Logo of M&M's"
+          text="Website for a metal fabrication business"
+          liveDemo="https://www.mnmsteelfab.com/"
+          sourceCode="https://github.com/alejandro-pedrazaaa/MandM-Steel-Fabrication"
+        />
+        <Card
+          img={FetchRewardsLogo}
+          alt="Logo of Fetch Rewards"
+          text="User creation form inspired by Fetch Rewards"
+          liveDemo="https://alejandro-pedrazaaa.github.io/User-Creation-Form/"
+          sourceCode="https://github.com/alejandro-pedrazaaa/User-Creation-Form"
+        />
+        <Card
+          img={APLogo}
+          alt="Logo of my portfolio"
+          text="This website!"
+          liveDemo=""
+          sourceCode=""
+        />
+      </div>
     </section>
   );
 };
