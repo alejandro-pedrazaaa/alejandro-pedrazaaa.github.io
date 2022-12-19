@@ -7,7 +7,6 @@ import Bootstrap from "../../Assets/Images/Tools_Icons/Bootstrap.svg";
 import React from "../../Assets/Images/Tools_Icons/React.svg";
 import Git from "../../Assets/Images/Tools_Icons/Git.svg";
 import Figma from "../../Assets/Images/Tools_Icons/Figma.svg";
-import GitHub from "../../Assets/Images/Tools_Icons/GitHub.svg";
 
 export const Profile = () => {
   return (
