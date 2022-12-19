@@ -8,12 +8,12 @@ export const Footer = () => {
           <h2>Contact Me</h2>
           <div className="col-12">
             <p>
-              <i class="fa-solid fa-phone"></i> Phone: 123-456-7890
+              <i className="fa-solid fa-phone"></i> Phone: 123-456-7890
             </p>
           </div>
           <div className="col-12">
             <p>
-              <i class="fa-solid fa-envelope"></i> Email:
+              <i className="fa-solid fa-envelope"></i> Email:
               contact@alejandropedrazaaa.com
             </p>
           </div>
@@ -22,13 +22,13 @@ export const Footer = () => {
           <h2>Follow Me</h2>
           <div className="col-12">
             <a>
-              <i class="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
             </a>
             <a>
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
             </a>
             <a>
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </a>
           </div>
         </div>
