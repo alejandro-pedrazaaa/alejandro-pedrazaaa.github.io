@@ -5,7 +5,7 @@ import MAndMLogo from "../../Assets/Images/Projects/MAndM.png";
 import FetchRewardsLogo from "../../Assets/Images/Projects/FetchRewards.png";
 import APLogo from "../../Assets/Images/Projects/AP.png";
 
-export const Work = () => {
+export const MyWork = () => {
   return (
     <section>
       <div className="work-text text-center pb-1">

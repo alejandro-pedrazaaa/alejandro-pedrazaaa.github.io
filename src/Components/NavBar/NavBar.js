@@ -1,6 +1,7 @@
 import "./navbar.css";
 import moon from "../../Assets/Images/Toggle_Icons/Moon.svg";
 import sun from "../../Assets/Images/Toggle_Icons/Sun.svg";
+import { useRef } from "react";
 
 export const NavBar = ({ theme, toggleTheme }) => {
   return (

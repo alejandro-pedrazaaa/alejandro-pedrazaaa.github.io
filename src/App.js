@@ -6,7 +6,7 @@ import { useDarkMode } from "./Hooks/useDarkMode";
 import { Fireflies } from "./Components/Fireflies/Fireflies";
 import { NavBar } from "./Components/NavBar/NavBar";
 import { Profile } from "./Components/Profile/Profile";
-import { Work } from "./Components/MyWork/MyWork";
+import { MyWork } from "./Components/MyWork/MyWork";
 import { Footer } from "./Components/Footer/Footer";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <GlobalStyles />
       <NavBar theme={theme} toggleTheme={themeToggler} />
       <Profile />
-      <Work />
+      <MyWork />
       <Footer />
     </ThemeProvider>
   );
