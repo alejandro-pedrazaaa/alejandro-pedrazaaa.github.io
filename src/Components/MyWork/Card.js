@@ -1,5 +1,3 @@
-import "./mywork.css";
-
 export const Card = (props) => {
   return (
     <div className="card mb-4">

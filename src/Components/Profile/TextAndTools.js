@@ -1,5 +1,3 @@
-import "./profile.css";
-
 export const TextAndTools = (props) => {
   return (
     <div className="pb-4">

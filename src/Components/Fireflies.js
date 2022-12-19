@@ -1,4 +1,4 @@
-import "./Fireflies.css";
+import "../Styles/fireflies.css";
 
 export const Fireflies = () => {
   return (

@@ -1,4 +1,4 @@
-import "./mywork.css";
+import "../../Styles/styles.css";
 import { Card } from "./Card";
 import MoviesAppLogo from "../../Assets/Images/Projects/MoviesApp.png";
 import MAndMLogo from "../../Assets/Images/Projects/MAndM.png";

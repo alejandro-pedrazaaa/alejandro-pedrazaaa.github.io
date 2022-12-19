@@ -1,4 +1,5 @@
-import "./profile.css";
+import "../../Styles/styles.css";
+
 import { TextAndTools } from "./TextAndTools";
 import HTML from "../../Assets/Images/Tools_Icons/HTML.svg";
 import CSS from "../../Assets/Images/Tools_Icons/CSS.svg";
