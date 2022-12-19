@@ -1,4 +1,3 @@
-import "../Styles/styles.css";
 import moon from "../Assets/Images/Toggle_Icons/Moon.svg";
 import sun from "../Assets/Images/Toggle_Icons/Sun.svg";
 

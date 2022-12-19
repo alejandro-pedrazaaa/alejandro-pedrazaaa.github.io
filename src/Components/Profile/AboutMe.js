@@ -1,5 +1,3 @@
-import "../../Styles/styles.css";
-
 import { TextAndTools } from "./TextAndTools";
 import HTML from "../../Assets/Images/Tools_Icons/HTML.svg";
 import CSS from "../../Assets/Images/Tools_Icons/CSS.svg";
@@ -9,7 +7,7 @@ import React from "../../Assets/Images/Tools_Icons/React.svg";
 import Git from "../../Assets/Images/Tools_Icons/Git.svg";
 import Figma from "../../Assets/Images/Tools_Icons/Figma.svg";
 
-export const Profile = () => {
+export const AboutMe = () => {
   return (
     <main className="profile text-center ">
       <h1 className="py-4">

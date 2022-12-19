@@ -1,3 +1,4 @@
+import "./Styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./Styles/Themes.Styles";
@@ -5,9 +6,9 @@ import { GlobalStyles } from "./Styles/Global.Styles";
 import { useDarkMode } from "./Hooks/useDarkMode";
 import { Fireflies } from "./Components/Fireflies";
 import { NavBar } from "./Components/NavBar";
-import { Profile } from "./Components/Profile/Profile";
+import { AboutMe } from "./Components/Profile/AboutMe";
 import { MyWork } from "./Components/MyWork/MyWork";
-import { Footer } from "./Components/Footer";
+import { ContactMe } from "./Components/ContactMe";
 
 function App() {
   const [theme, themeToggler] = useDarkMode();
@@ -19,9 +20,9 @@ function App() {
       <Fireflies />
       <GlobalStyles />
       <NavBar theme={theme} toggleTheme={themeToggler} />
-      <Profile />
+      <AboutMe />
       <MyWork />
-      <Footer />
+      <ContactMe />
     </ThemeProvider>
   );
 }

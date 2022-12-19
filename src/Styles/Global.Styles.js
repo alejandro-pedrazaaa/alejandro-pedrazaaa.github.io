@@ -1,23 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
- :root {
-  --font-regular: 400;
-  /* --font-medium: 500; */
-  --font-semiBold: 600;
-  --font-bold: 700;
-}
- * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   font-family: "Open Sans", sans-serif;
- }
- body {
-    padding: 0 1.5rem;
+  body {
     background: ${({ theme }) => theme.body} !important;
     color: ${({ theme }) => theme.text} !important;
-    transition: all 0.25s ease-in-out;
   }
   /******************************* FIREFLIES *******************************/
   .firefly::before {

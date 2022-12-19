@@ -1,6 +1,4 @@
-import "../Styles/styles.css";
-
-export const Footer = () => {
+export const ContactMe = () => {
   return (
     <footer className="container-fluid">
       <div className="row">
