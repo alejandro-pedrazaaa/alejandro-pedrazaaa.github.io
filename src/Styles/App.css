@@ -1,6 +1,6 @@
 :root {
-  --font-regular: 400;
-  --font-semiBold: 600;
+  --font-medium: 500;
+  /* --font-semiBold: 600; */
   --font-bold: 700;
 }
 * {
@@ -9,6 +9,7 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+/******************************* Body *******************************/
 body {
   padding: 0 1.5rem;
   transition: all 0.25s ease-in-out;
@@ -25,9 +26,22 @@ body p,
 body a {
   font-size: 1.2rem;
   text-decoration: none;
+  font-weight: var(--font-medium);
 }
 
 /******************************* NavBar *******************************/
+.navbar .logo-text {
+  font-size: 1.5rem;
+  font-weight: var(--font-bold);
+}
+.navbar button {
+  background: none;
+  border: none;
+  border-radius: 0.375rem;
+}
+.navbar button img {
+  width: 1.5rem;
+}
 /******************************* AboutMe *******************************/
 /******************************* MyWork *******************************/
 /******************************* ContactMe *******************************/

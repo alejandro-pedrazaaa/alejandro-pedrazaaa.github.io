@@ -1,11 +1,18 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+  /******************************* Body *******************************/
   body {
     background: ${({ theme }) => theme.body} !important;
     color: ${({ theme }) => theme.text} !important;
   }
-  /******************************* FIREFLIES *******************************/
+  body h1, 
+  body h2,
+  body p, 
+  body a {
+    color: ${({ theme }) => theme.text} !important;
+  }
+  /******************************* Fireflies *******************************/
   .firefly::before {
     background: ${({ theme }) => theme.text} !important;
   }
@@ -24,27 +31,8 @@ export const GlobalStyles = createGlobalStyle`
       box-shadow: 0 0 2vw 0.4vw ${({ theme }) => theme.text};
     }
   }
-  /******************************* NAVBAR *******************************/
-  .navbar a {
-    color: ${({ theme }) => theme.text} !important;
-  }
+  /******************************* NavBar *******************************/
   .navbar button {
     background: ${({ theme }) => theme.toggleButton} !important;
-  }  
-  /******************************* WORK *******************************/
-  .card {
-    background: ${({ theme }) => theme.reverseBody} !important;
-  }
-  .card-text {
-    color: ${({ theme }) => theme.reverseText} !important;
-  }
-  .card-body button {
-    background: ${({ theme }) => theme.toggleButton} !important;
-  }
-  .card-body button a {
-    color: ${({ theme }) => theme.text} !important;
-  }
-  .card-body p {
-    color: ${({ theme }) => theme.reverseText} !important;
   }
 `;
