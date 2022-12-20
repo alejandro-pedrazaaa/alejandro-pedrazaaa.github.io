@@ -9,37 +9,39 @@ import Figma from "../../Assets/Images/Tools_Icons/Figma.svg";
 
 export const AboutMe = () => {
   return (
-    <main className="profile text-center">
-      <h1 className="py-4">
-        UI/UX Designer<br></br>&<br></br>Frontend Developer
-      </h1>
-      <p>
-        👋 Hey there, I am Alejandro! A web developer dedicated to create
-        beautiful websites for amazing people ⭐
-      </p>
-      <div className="py-2">
-        <TextAndTools
-          text="🗣️ Languages I speak:"
-          technologies={{
-            HTML,
-            CSS,
-            JS,
-            Git,
-          }}
-        />
-        <TextAndTools
-          text="🛠️ Frameworks and libraries I use:"
-          technologies={{
-            Bootstrap,
-            React,
-          }}
-        />
-        <TextAndTools
-          text="👨‍🎨 What I use to design:"
-          technologies={{
-            Figma,
-          }}
-        />
+    <main className="about-me">
+      <div className="container text-center px-0">
+        <h1 className="my-5">
+          A web developer <br></br>&<br></br> UX/UI designer
+        </h1>
+        <p className="mb-3">
+          👋 Hey there, I am Alejandro! <br></br> I design and develop beautiful
+          websites for amazing people and companies
+        </p>
+        <div className="mb-5">
+          <TextAndTools
+            text="🗣️ Languages I speak:"
+            technologies={{
+              HTML,
+              CSS,
+              JS,
+              Git,
+            }}
+          />
+          <TextAndTools
+            text="🛠️ Frameworks and libraries I use:"
+            technologies={{
+              Bootstrap,
+              React,
+            }}
+          />
+          <TextAndTools
+            text="👨‍🎨 What I use to design:"
+            technologies={{
+              Figma,
+            }}
+          />
+        </div>
       </div>
     </main>
   );

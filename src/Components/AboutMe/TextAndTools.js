@@ -1,7 +1,7 @@
 export const TextAndTools = (props) => {
   return (
-    <div className="pb-4">
-      <p className="mb-2">{props.text}</p>
+    <div className="mb-4">
+      <p>{props.text}</p>
       <ul className="list-group list-group-horizontal list-unstyled justify-content-center">
         {Object.keys(props.technologies).map((key) => {
           return (
