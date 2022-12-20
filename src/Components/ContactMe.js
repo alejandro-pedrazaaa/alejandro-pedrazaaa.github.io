@@ -33,7 +33,7 @@ export const ContactMe = () => {
           </div>
           <div className="col-12 px-0 pt-2">
             <p className="copyright">
-              Copyright &copy; 2022 alejandropedrazaaa.com
+              Copyright &copy; 2022 Alejandro Pedraza. All Rights Reserved.
             </p>
           </div>
         </div>
