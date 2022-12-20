@@ -6,7 +6,7 @@ export const ContactMe = () => {
           <div className="col-12 px-0">
             <h2>Contact Me</h2>
             <div className="col-12">
-              <p className="mb-1">
+              <p>
                 <i className="fa-solid fa-phone"></i> Phone: 479-466-3167
               </p>
             </div>
@@ -19,7 +19,7 @@ export const ContactMe = () => {
           </div>
           <div className="col-12 px-0 my-4">
             <h2>Follow Me</h2>
-            <div className="col-12 d-flex justify-content-evenly">
+            <div className="col-12 col-md-8 offset-md-2 d-flex justify-content-evenly">
               <a href="https://www.instagram.com/alejandro_pedrazaaa">
                 <i className="fa-brands fa-instagram"></i>
               </a>

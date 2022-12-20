@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 export const NavBar = ({ theme, toggleTheme }) => {
   return (
-    <nav className="navbar">
+    <nav className="navbar pt-3">
       <div className="container px-0">
         <div className="d-flex align-items-center">
           <span className="logo-text">&#60;AP&#62;</span>
@@ -32,6 +32,7 @@ export const NavBar = ({ theme, toggleTheme }) => {
           <button
             className="p-2 d-flex align-items-center justify-content-center"
             onClick={toggleTheme}
+            title="Toggle theme"
           >
             {theme === "light" ? (
               <img src={moon} alt="Moon icon" />

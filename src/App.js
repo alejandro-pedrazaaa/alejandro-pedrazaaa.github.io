@@ -19,10 +19,16 @@ function App() {
     <ThemeProvider theme={themeMode}>
       <Fireflies />
       <GlobalStyles />
-      <NavBar theme={theme} toggleTheme={themeToggler} />
-      <AboutMe />
-      <MyWork />
-      <ContactMe />
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-10 offset-md-1 px-0">
+            <NavBar theme={theme} toggleTheme={themeToggler} />
+            <AboutMe />
+            <MyWork />
+            <ContactMe />
+          </div>
+        </div>
+      </div>
     </ThemeProvider>
   );
 }
