@@ -40,7 +40,7 @@ export const MyWork = () => {
             alt="Logo of my portfolio"
             text="This website! My portfolio. I hope you like it!"
             liveDemo=""
-            sourceCode=""
+            sourceCode="https://github.com/alejandro-pedrazaaa/alejandro-pedrazaaa.github.io"
           />
         </div>
       </div>
