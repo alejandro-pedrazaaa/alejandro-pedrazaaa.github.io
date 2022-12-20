@@ -11,7 +11,7 @@ export const AboutMe = () => {
   return (
     <main className="about-me">
       <div className="container text-center px-0">
-        <h1 className="my-5">
+        <h1 className="my-4">
           A web developer <br></br>&<br></br> UX/UI designer
         </h1>
         <p className="mb-3">
