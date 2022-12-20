@@ -1,6 +1,6 @@
 export const ContactMe = () => {
   return (
-    <footer className="container-fluid">
+    <footer className="container-fluid" id="contact-me">
       <div className="row">
         <div className="col-12 contact-me">
           <h2>Contact Me</h2>

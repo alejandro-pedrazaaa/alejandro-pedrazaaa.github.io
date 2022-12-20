@@ -9,7 +9,7 @@ import Figma from "../../Assets/Images/Tools_Icons/Figma.svg";
 
 export const AboutMe = () => {
   return (
-    <main className="profile text-center ">
+    <main className="profile text-center">
       <h1 className="py-4">
         UI/UX Designer<br></br>&<br></br>Frontend Developer
       </h1>

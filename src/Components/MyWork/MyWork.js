@@ -6,7 +6,7 @@ import APLogo from "../../Assets/Images/Projects/AP.png";
 
 export const MyWork = () => {
   return (
-    <section>
+    <section id="my-work">
       <div className="work-text text-center pb-1">
         <h2>Here is some of my work:</h2>
       </div>

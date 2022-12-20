@@ -1,5 +1,6 @@
 import moon from "../Assets/Images/Toggle_Icons/Moon.svg";
 import sun from "../Assets/Images/Toggle_Icons/Sun.svg";
+import { Link } from "react-scroll";
 
 export const NavBar = ({ theme, toggleTheme }) => {
   return (
@@ -11,12 +12,26 @@ export const NavBar = ({ theme, toggleTheme }) => {
           </a>
         </div>
         <div className="d-flex align-items-center">
-          <a href="#work" className="align-middle">
-            Work
-          </a>
-          <a href="#contact-me" className="px-3 align-middle">
+          <Link
+            to="my-work"
+            spy={true}
+            smooth={true}
+            offset={-5}
+            duration={100}
+            className="p-2"
+          >
+            My Work
+          </Link>
+          <Link
+            to="contact-me"
+            spy={true}
+            smooth={true}
+            offset={-5}
+            duration={100}
+            className="p-2"
+          >
             Contact Me
-          </a>
+          </Link>
           <button className="p-2" onClick={toggleTheme}>
             {theme === "light" ? (
               <img

@@ -6,7 +6,7 @@ import { GlobalStyles } from "./Styles/Global.Styles";
 import { useDarkMode } from "./Hooks/useDarkMode";
 import { Fireflies } from "./Components/Fireflies";
 import { NavBar } from "./Components/NavBar";
-import { AboutMe } from "./Components/Profile/AboutMe";
+import { AboutMe } from "./Components/AboutMe/AboutMe";
 import { MyWork } from "./Components/MyWork/MyWork";
 import { ContactMe } from "./Components/ContactMe";
 
