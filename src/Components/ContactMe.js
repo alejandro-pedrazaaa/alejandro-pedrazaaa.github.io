@@ -6,7 +6,7 @@ export const ContactMe = () => {
           <div className="col-12 px-0">
             <h2>Contact Me</h2>
             <div className="col-12">
-              <p>
+              <p className="mb-1">
                 <i className="fa-solid fa-phone"></i> Phone: 479-466-3167
               </p>
             </div>
@@ -31,7 +31,7 @@ export const ContactMe = () => {
               </a>
             </div>
           </div>
-          <div className="col-12  px-0 pt-2">
+          <div className="col-12 px-0 pt-2">
             <p className="copyright">
               Copyright &copy; 2022 alejandropedrazaaa.com
             </p>

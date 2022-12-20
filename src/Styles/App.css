@@ -34,6 +34,9 @@ body a {
   font-size: 1.5rem;
   font-weight: var(--font-bold);
 }
+.navbar a {
+  cursor: pointer;
+}
 .navbar button,
 .my-work .card-body .btn {
   background: none;
