@@ -56,3 +56,10 @@ body a {
   border-bottom-right-radius: 0.375rem;
 }
 /******************************* ContactMe *******************************/
+.contact-me a i {
+  font-size: 3rem;
+}
+.contact-me .copyright {
+  font-size: 1rem;
+  opacity: 0.5;
+}
