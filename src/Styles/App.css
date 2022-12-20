@@ -34,7 +34,8 @@ body a {
   font-size: 1.5rem;
   font-weight: var(--font-bold);
 }
-.navbar button {
+.navbar button,
+.my-work .card-body .btn {
   background: none;
   border: none;
   border-radius: 0.375rem;
@@ -46,6 +47,12 @@ body a {
 .about-me ul li img {
   width: 3rem;
 }
-
 /******************************* MyWork *******************************/
+.my-work .card {
+  border: none !important;
+}
+.my-work .card .card-body {
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
 /******************************* ContactMe *******************************/

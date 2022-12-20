@@ -35,4 +35,15 @@ export const GlobalStyles = createGlobalStyle`
   .navbar button {
     background: ${({ theme }) => theme.toggleButton} !important;
   }
+  /******************************* MyWork *******************************/
+  .my-work .card-body {
+    background: ${({ theme }) => theme.reverseBody} !important;
+  }
+  .my-work .card-body .card-text {
+    color: ${({ theme }) => theme.reverseText} !important;
+  }
+  .my-work .card-body .btn {
+    background: ${({ theme }) => theme.toggleButton} !important;
+    color: ${({ theme }) => theme.text} !important;
+  }
 `;
