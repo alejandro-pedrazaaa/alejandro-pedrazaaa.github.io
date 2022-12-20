@@ -39,7 +39,7 @@ export const MyWork = () => {
             img={APLogo}
             alt="Logo of my portfolio"
             text="This website! My portfolio. I hope you like it!"
-            liveDemo=""
+            liveDemo="/"
             sourceCode="https://github.com/alejandro-pedrazaaa/alejandro-pedrazaaa.github.io"
           />
         </div>

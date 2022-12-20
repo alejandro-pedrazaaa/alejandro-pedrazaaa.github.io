@@ -20,14 +20,20 @@ export const ContactMe = () => {
           <div className="col-12 px-0 my-4">
             <h2>Follow Me</h2>
             <div className="col-12 col-md-8 offset-md-2 d-flex justify-content-evenly">
-              <a href="https://www.instagram.com/alejandro_pedrazaaa">
-                <i className="fa-brands fa-instagram"></i>
+              <a
+                href="https://www.linkedin.com/in/alejandro-pedrazaaa/"
+                target="_blank"
+              >
+                <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="https://github.com/alejandro-pedrazaaa">
+              <a href="https://github.com/alejandro-pedrazaaa" target="_blank">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/alejandro-pedrazaaa/">
-                <i className="fa-brands fa-linkedin"></i>
+              <a
+                href="https://www.instagram.com/alejandro_pedrazaaa"
+                target="_blank"
+              >
+                <i className="fa-brands fa-instagram"></i>
               </a>
             </div>
           </div>
