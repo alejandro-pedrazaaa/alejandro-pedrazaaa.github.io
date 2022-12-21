@@ -1,6 +1,6 @@
 export const Card = (props) => {
   return (
-    <div className="col-12 col-md-6">
+    <div className="col-12 col-lg-6">
       <div className="card mb-5 ">
         <img src={props.img} className="card-img-top" alt={props.alt} />
         <div className="card-body">
