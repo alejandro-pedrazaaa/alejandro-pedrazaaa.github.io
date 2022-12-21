@@ -14,7 +14,7 @@ export const AboutMe = () => {
         <div className="row">
           <div className="px-0 col-12">
             <h1 className="my-5">
-              UX/UI Designer <br></br> & <br></br> Frontend Developer
+              UX/UI Designer <br></br> & <br></br> Front-end Developer
             </h1>
             <p className="mb-5">
               👋 Hey there, I am Alejandro! <br></br> I design and develop
