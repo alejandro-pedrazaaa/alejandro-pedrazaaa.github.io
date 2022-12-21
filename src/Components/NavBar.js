@@ -32,7 +32,7 @@ export const NavBar = ({ theme, toggleTheme }) => {
           <button
             className="p-2 d-flex align-items-center justify-content-center"
             onClick={toggleTheme}
-            title="Toggle theme"
+            title="Change theme"
           >
             {theme === "light" ? (
               <img src={moon} alt="Moon icon" />
