@@ -24,7 +24,7 @@ export const NavBar = ({ theme, toggleTheme }) => {
             spy={true}
             smooth={true}
             offset={-5}
-            duration={1000}
+            duration={600}
             className="px-3"
           >
             Contact Me
